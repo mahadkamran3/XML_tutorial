@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
     //old exampleprivate lateinit var binding: ActivityMainBinding
     //old example now it is changed to new logic for fomr handling XML views
     /*override fun onCreate(savedInstanceState: Bundle?) {
+        //the onCreate function here is  an lifecycle
+        //wehn we move form a dashborad to another screne it will go to 
+        //either stop() or pause() state depending on implementation
         super.onCreate(savedInstanceState)
 
         // Use ViewBinding to access XML views
