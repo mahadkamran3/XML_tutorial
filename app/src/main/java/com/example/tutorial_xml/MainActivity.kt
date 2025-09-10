@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         //the onCreate function here is  an lifecycle
         //wehn we move form a dashborad to another screne it will go to 
         //either stop() or pause() state depending on implementation
+        //stateful page widget
         super.onCreate(savedInstanceState)
 
         // Use ViewBinding to access XML views
